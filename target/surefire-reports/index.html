@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Web_suite">
+              <span class="suite-name border-failed">Web suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Web_suite">
+                    <span>C:\Automation\FinalProject\TestNGWeb.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Web_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Web_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Web_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Web_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Web_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Web_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Web_suite" class="hide-methods failed suite-Web_suite"> (hide)</a> <!-- hide-methods failed suite-Web_suite -->
+                      <a href="#" panel-name="suite-Web_suite" class="show-methods failed suite-Web_suite"> (show)</a> <!-- show-methods failed suite-Web_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Web_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test07_VerifyImage">test07_VerifyImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Web_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Web_suite" class="hide-methods passed suite-Web_suite"> (hide)</a> <!-- hide-methods passed suite-Web_suite -->
+                      <a href="#" panel-name="suite-Web_suite" class="show-methods passed suite-Web_suite"> (show)</a> <!-- show-methods passed suite-Web_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Web_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test01_verifyLogin">test01_verifyLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test02_ShoppingCartButtons">test02_ShoppingCartButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test03_RemoveShoppingCartButtons">test03_RemoveShoppingCartButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test04_verifyFilter">test04_verifyFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test05_LogOut(problem_user, secret_sauce)">test05_LogOut(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test05_LogOut(standard_user, secret_sauce)">test05_LogOut(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test05_LogOut(performance_glitch_user, secret_sauce)">test05_LogOut(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_suite" title="sanity.SauceDemoWeb" hash-for-method="test06_About">test06_About</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Web_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Web_suite" class="panel Web_suite">
+          <div class="suite-Web_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sanity.SauceDemoWeb</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test07_VerifyImage">
+                  </a> <!-- test07_VerifyImage -->
+                  <span class="method-name">test07_VerifyImage</span>
+                  <div class="stack-trace">java.lang.ExceptionInInitializerError
+	at org.sikuli.script.Image.get(Image.java:1007)
+	at org.sikuli.script.Image.create(Image.java:661)
+	at org.sikuli.script.Element.getImageFromTarget(Element.java:378)
+	at org.sikuli.script.Region.find(Region.java:2257)
+	at extensions.Verifications.visualElement(Verifications.java:68)
+	at sanity.SauceDemoWeb.test07_VerifyImage(SauceDemoWeb.java:69)
+	at java.util.ArrayList.forEach(Unknown Source)
+Caused by: org.sikuli.script.SikuliXception: SikuliX fatal Error: System must be 64-Bit
+	at org.sikuli.script.support.Commons.&lt;clinit&gt;(Commons.java:38)
+	... 38 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(test07_Verify image)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_suite-class-failed -->
+          <div class="suite-Web_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sanity.SauceDemoWeb</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01_verifyLogin">
+                  </a> <!-- test01_verifyLogin -->
+                  <span class="method-name">test01_verifyLogin</span>
+                  <em>
+(test01_verifyLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test02_ShoppingCartButtons">
+                  </a> <!-- test02_ShoppingCartButtons -->
+                  <span class="method-name">test02_ShoppingCartButtons</span>
+                  <em>
+(test02_ShoppingCartButtons)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test03_RemoveShoppingCartButtons">
+                  </a> <!-- test03_RemoveShoppingCartButtons -->
+                  <span class="method-name">test03_RemoveShoppingCartButtons</span>
+                  <em>
+(test03_RemoveShoppingCartButtons)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test04_verifyFilter">
+                  </a> <!-- test04_verifyFilter -->
+                  <span class="method-name">test04_verifyFilter</span>
+                  <em>
+(test04_verifyFilter)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test05_LogOut(problem_user, secret_sauce)">
+                  </a> <!-- test05_LogOut(problem_user, secret_sauce) -->
+                  <span class="method-name">test05_LogOut</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <em>
+(test05_LogOut)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test05_LogOut(standard_user, secret_sauce)">
+                  </a> <!-- test05_LogOut(standard_user, secret_sauce) -->
+                  <span class="method-name">test05_LogOut</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(test05_LogOut)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test05_LogOut(performance_glitch_user, secret_sauce)">
+                  </a> <!-- test05_LogOut(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">test05_LogOut</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                  <em>
+(test05_LogOut)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test06_About">
+                  </a> <!-- test06_About -->
+                  <span class="method-name">test06_About</span>
+                  <em>
+(test06_AboutUseMouseover)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_suite-class-passed -->
+        </div> <!-- panel Web_suite -->
+        <div panel-name="test-xml-Web_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Automation\FinalProject\TestNGWeb.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Web suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Web Tests&quot;&gt;
+    &lt;parameter name=&quot;PlatformName&quot; value=&quot;web&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sanity.SauceDemoWeb&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Web Tests --&gt;
+&lt;/suite&gt; &lt;!-- Web suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Web_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Web suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Web Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Web_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Web suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Web_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Web suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Web_suite');
+function tableData_Web_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test06_About')
+data.setCell(0, 2, 'sanity.SauceDemoWeb')
+data.setCell(0, 3, 17363);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test05_LogOut')
+data.setCell(1, 2, 'sanity.SauceDemoWeb')
+data.setCell(1, 3, 6586);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test01_verifyLogin')
+data.setCell(2, 2, 'sanity.SauceDemoWeb')
+data.setCell(2, 3, 2065);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test02_ShoppingCartButtons')
+data.setCell(3, 2, 'sanity.SauceDemoWeb')
+data.setCell(3, 3, 1998);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test04_verifyFilter')
+data.setCell(4, 2, 'sanity.SauceDemoWeb')
+data.setCell(4, 3, 1884);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test05_LogOut')
+data.setCell(5, 2, 'sanity.SauceDemoWeb')
+data.setCell(5, 3, 1802);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test03_RemoveShoppingCartButtons')
+data.setCell(6, 2, 'sanity.SauceDemoWeb')
+data.setCell(6, 3, 1656);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test05_LogOut')
+data.setCell(7, 2, 'sanity.SauceDemoWeb')
+data.setCell(7, 3, 1626);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test07_VerifyImage')
+data.setCell(8, 2, 'sanity.SauceDemoWeb')
+data.setCell(8, 3, 57);
+window.suiteTableData['Web_suite']= { tableData: data, tableDiv: 'times-div-Web_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-Web_suite">
+              </div> <!-- times-div-Web_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Web_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Web suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Web_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Web_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sanity.SauceDemoWeb</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">startSession(web)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test01_verifyLogin())</span>
+                <span class="method-start">8192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test01_verifyLogin</span>
+                <span class="method-start">8731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">10958 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test02_ShoppingCartButtons())</span>
+                <span class="method-start">11156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test02_ShoppingCartButtons</span>
+                <span class="method-start">11187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">13235 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test03_RemoveShoppingCartButtons())</span>
+                <span class="method-start">13409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test03_RemoveShoppingCartButtons</span>
+                <span class="method-start">13479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">15192 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test04_verifyFilter())</span>
+                <span class="method-start">15334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test04_verifyFilter</span>
+                <span class="method-start">15361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">17371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test05_LogOut(java.lang.String,java.lang.String))</span>
+                <span class="method-start">17524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test05_LogOut(standard_user, secret_sauce)</span>
+                <span class="method-start">17538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">19428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test05_LogOut(java.lang.String,java.lang.String))</span>
+                <span class="method-start">19545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test05_LogOut(problem_user, secret_sauce)</span>
+                <span class="method-start">19566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">21260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test05_LogOut(java.lang.String,java.lang.String))</span>
+                <span class="method-start">21400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test05_LogOut(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">21417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">28072 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test06_About())</span>
+                <span class="method-start">28195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test06_About</span>
+                <span class="method-start">28220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">45665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void sanity.SauceDemoWeb.test07_VerifyImage())</span>
+                <span class="method-start">46192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test07_VerifyImage</span>
+                <span class="method-start">46234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">46657 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeSession</span>
+                <span class="method-start">46761 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
